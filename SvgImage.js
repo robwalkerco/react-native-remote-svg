@@ -49,7 +49,6 @@ class SvgImage extends Component {
         <View pointerEvents="none" style={[props.style, props.containerStyle]}>
           <WebView
             originWhitelist={['*']}
-            scalesPageToFit={true}
             style={[
               {
                 width: 200,
